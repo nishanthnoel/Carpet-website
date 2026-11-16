@@ -1,0 +1,6 @@
+{
+  "name": "Horizon Elite Solutions",
+  "description": "Minimalist, high-end carpet repair, stretching, removal, and underlay replacement services with Web3Forms integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

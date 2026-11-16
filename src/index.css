@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .bg-insta-gradient {
+    background: linear-gradient(135deg, #833AB4 0%, #C13584 25%, #E1306C 50%, #FD1D1D 75%, #FCAF45 100%);
+  }
+  .bg-insta-gradient-hover {
+    background: linear-gradient(135deg, #9742cd 0%, #ce3b8e 25%, #ed3973 50%, #ff2a2a 75%, #fdb954 100%);
+  }
+  .bg-insta-subtle {
+    background: linear-gradient(135deg, rgba(131, 58, 180, 0.1) 0%, rgba(225, 48, 108, 0.1) 50%, rgba(252, 175, 69, 0.1) 100%);
+  }
+  .text-insta-gradient {
+    background: linear-gradient(135deg, #833AB4 0%, #C13584 25%, #E1306C 50%, #FD1D1D 75%, #FCAF45 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
